@@ -1,4 +1,4 @@
-package com.charlie.marleypetclinic.model;
+package com.charlie.marleypetclinic.models;
 
 public class PetType {
     private String name;

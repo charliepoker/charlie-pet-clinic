@@ -1,4 +1,4 @@
-package com.charlie.marleypetclinic.model;
+package com.charlie.marleypetclinic.models;
 
 import java.time.LocalDate;
 
