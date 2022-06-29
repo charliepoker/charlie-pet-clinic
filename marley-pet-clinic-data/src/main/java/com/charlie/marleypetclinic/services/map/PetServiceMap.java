@@ -2,10 +2,13 @@ package com.charlie.marleypetclinic.services.map;
 
 import com.charlie.marleypetclinic.models.Pet;
 import com.charlie.marleypetclinic.services.CrudService;
+import com.charlie.marleypetclinic.services.PetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
-public class PetServiceMap extends AbstractMapService <Pet, Long> implements CrudService<Pet, Long> {
+@Service
+public class PetServiceMap extends AbstractMapService <Pet, Long> implements PetService {
 
 
     @Override
